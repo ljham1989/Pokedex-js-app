@@ -19,7 +19,3 @@ var repository = [
 for (var i = 0; i < repository.length; i++) {
   document.write("<p>" + repository[i].name + "</p>");
 }
-
-if (item.height > 0.7) {
-  document.write("Wow, that is big!");
-}
