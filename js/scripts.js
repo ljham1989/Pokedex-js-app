@@ -1,7 +1,7 @@
 var repository = [
-  {name: "Bulbasaur", height: 0.7, type: ["grass", "poison"]},
-  {name: "Ivysaur", height: 1, type: ["grass", "poison"]},
-  {name: "Venusaur", height: 2, type: ["grass", "poison"]}
+  {name: "Bulbasaur (height) ", height: 0.7, type: ["grass", "poison"]},
+  {name: "Ivysaur (height) ", height: 1, type: ["grass", "poison"]},
+  {name: "Venusaur (height) ", height: 2, type: ["grass", "poison"]}
 ];
 
 for (var i = 0; i < repository.length; i++) {
