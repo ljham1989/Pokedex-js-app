@@ -6,10 +6,9 @@ var repository = [
 
 for (var i = 0; i < repository.length; i++) {
   let item = repository[i];
-  document.write("<p>" + item.name + "</p>");
-  document.write("<p>" + item.height + "</p>");
+  document.write("<p>" + item.name + item.height + "</p>");
 
   if (item.height > 0.7) {
-    document.write("Wow, that is big!");
+    document.write("- Wow, that is big!");
   }
 }
