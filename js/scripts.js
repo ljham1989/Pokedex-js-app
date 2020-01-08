@@ -1,18 +1,11 @@
 var repository = [
-  { name: "Bulbasaur (height) ", height: 0.7, type: ["grass", "poison"] },
-  { name: "Ivysaur (height) ", height: 1, type: ["grass", "poison"] },
-  { name: "Venusaur (height) ", height: 2, type: ["grass", "poison"] }
+  { name: "Bulbasaur", height: 0.7, type: ["grass", "poison"] },
+  { name: "Ivysaur", height: 1, type: ["grass", "poison"] },
+  { name: "Venusaur", height: 2, type: ["grass", "poison"] }
 ];
 
-Object.keys(repository).forEach(function(property) {
-  console.log(repository[property]);
+repository.forEach(function(repository) {
+  document.write(repository.name + "<br>");
+  document.write(repository.type + "<br>");
+  document.write(repository.height + "<br><br>");
 });
-
-for (var i = 0; i < repository.length; i++) {
-  let item = repository[i];
-  document.write("<p>" + item.name + item.height + "</p>");
-
-  if (item.height > 0.7) {
-    document.write("- Wow, that is big!");
-  }
-}
